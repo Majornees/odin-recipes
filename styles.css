@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #90a3b4;
+}
+
+main {
+    background-color: beige;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.ingredients, .steps {
+    text-align: left;
+}
+
+h1, h2, p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.btn {
+    background-color: #0f4162;
+    transition-duration: 0.4s;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    background-color: #90a3b4;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)
+}
